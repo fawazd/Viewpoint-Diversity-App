@@ -1,0 +1,224 @@
+a.nav-link,
+.navbar-brand{
+color: #f6f1ed;
+font-size: 135%;
+letter-spacing: 1.5px;
+font-weight: bold;
+padding: 0;
+}
+
+a.nav-link:hover,
+.navbar-brand:hover{
+color: grey;
+}
+
+.navbar{
+background-color: #30231d;
+height: 50px;
+border-radius: 100px;
+margin-bottom: 5%;
+border-radius: 5px 5px 0px 0px;
+}
+
+h1.tournament_title {
+    text-transform: uppercase;
+}
+
+.cont{
+color: #30231d;
+font-size: 120%;
+margin-bottom: 4%;
+padding: .5rem 1rem;
+background-color: #f6f1ed;
+border-radius: 0px 0px 5px 5px;
+padding-top: 20px;
+}
+
+h1,h2,h3,h4{
+color: #30231d;
+text-align: justify;
+}
+
+body{
+display: block;
+background-image: url('/static/quiz/images/wallpaper.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: auto;
+margin-top: 4%;
+width: 40%;
+font-family: "Lato"
+}
+
+.question{
+margin-top: 20px;
+}
+
+.btn{
+margin-top: 15px;
+text-align: center;
+background-color: #6a5750;
+color: #f6f1ed;
+width: 100%;
+border-radius: 0px;
+border: none;
+}
+
+.btn:hover{
+color: white;
+background-color: #30231d;
+border: none;
+}
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #30231d !important;
+}
+.img{
+display: block;
+margin: auto;
+margin-top: 20px;
+box-shadow: 3px 3px grey;
+}
+
+div.justify{
+text-align: justify;
+}
+
+div.progress{
+background-color: #6a5750;
+height: 25px;
+font-size: 70%;
+margin-bottom: 5px;
+margin-top: -10px;
+}
+
+div.progress-bar{
+background-color: #30231d;
+text-align: center;
+color: #f6f1ed;
+min-width: 25px;
+}
+
+.progr{
+width: 25%;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 100%;
+}
+
+.begin{
+text-transform: uppercase;
+font-size: 100%;
+}
+
+.begin-btn{
+margin-top: 15px;
+text-align: center;
+background-color: #6a5750;
+color: #f6f1ed;
+width: 30%;
+height: 40%;
+border-radius: 0px;
+border: none;
+margin-left: 2%;
+}
+
+pre {
+font-family: "Lato";
+font-size: 95%;
+}
+
+#wrapper{
+    overflow:auto;
+margin-bottom: 3%;
+}
+
+.sec_nav{
+float:right;
+}
+
+.inline{
+float:left;
+padding-top: 3%;
+}
+
+.prev{
+width: 100px;
+}
+.next{
+width: 100px;
+float: right;
+}
+
+i{
+font-family: "Times New Roman", Times, serif;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #C3ACA4;
+    margin-top: 2.5px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #978077;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #6a5750;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
