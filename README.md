@@ -1,7 +1,8 @@
 # Viewpoint Diversity App
 
-A quiz to help people learn and develop skills based around viewpoint diversity
-Viewpoint Diversity is a psychology-based educational platform designed to bring people together in campuses, companies, organizations, and communities.
+VDA is a dynamic quiz web application, a recreation of the OpenMind quiz which focuses on helping people learn and develop skills that will allow them to work together and coexist with others that have differing opinions in life. This web application was created using Django, PostgreSQL and Bootstrap.
+
+The biggest obstacle we faced was figuring out the complex data model that the OpenMind team had implemented on their application. It took many iteration of changing our data model to reach a suitable final design that allowed the variety of functionality to coexist. My role in this project was coding the functionality of the quiz, primarily the Quiz and Progress views. Due to the process we had gone through in deciphering the database model my skills in deconstructing and understanding existing database designs has grown a lot.
 
 ## Getting Started
 
